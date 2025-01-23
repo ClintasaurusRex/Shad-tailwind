@@ -38,22 +38,3 @@ function App() {
 }
 
 export default App;
-{
-  /* <>
-      <nav className="navbar">
-        <NavbarWithMegaMenu />
-      </nav>
-      <main>
-        <Calendar
-          mode="single"
-          selected={date}
-          onSelect={setDate}
-          className="rounded-md border"
-        />
-      </main>
-      <br />
-      <div>
-        <button onClick={handleCount}>Count is {count} </button>
-      </div>
-    </> */
-}
