@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import "./App.css";
 import { Calendar } from "@/components/ui/calendar";
 import { NavbarWithMegaMenu } from "./components/ui/NavBar";
+import ExampleList from "./components/ui/Example";
 function App() {
   const [count, setCount] = useState(0);
   const [date, setDate] = React.useState(new Date());
@@ -32,6 +33,9 @@ function App() {
         >
           Count is {count}{" "}
         </Button>
+      </div>
+      <div>
+        <ExampleList />
       </div>
     </>
   );
